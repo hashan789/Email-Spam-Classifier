@@ -2,6 +2,8 @@
 
 An email spam classifier is a machine learning model that is trained to classify emails as spam or not spam. Spam emails are unsolicited and unwanted emails that are often sent in bulk for commercial purposes. They can also be dangerous, as they may contain malicious links or attachments that can infect your computer with malware.
 
+this is a web application and i have deployed it to aws elastic beanstalk. and you can go to the web application on <a href="http://emailspamclassifierpython-env.eba-bssctbdh.us-east-1.elasticbeanstalk.com/">this link</a>.
+
 Email spam classifiers work by extracting features from emails and then using those features to train a model. The features that are extracted can vary, but they often include things like the email's subject line, body text, sender address, and recipient address. The model is then trained on a dataset of emails that have already been labeled as spam or not spam. Once the model is trained, it can be used to classify new emails.
 
 In this case, I have used the logistic regression algorithm to build an email spam classifier.
