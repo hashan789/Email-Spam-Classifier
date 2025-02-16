@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Bree+Serif&family=Urbanist:wght@100;200&display=swap');
+
+.left-side{
+    width: 40vw;
+    height: 100vh;
+}
+
+.head{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.heading{
+   font-family: 'Bebas Neue', sans-serif;
+}
+
+/* .form{
+   gap: 0px;
+} */
+
+.bottom{
+   margin-bottom: 20px;
+}
+
+.input{
+   height: 50px;
+   width: 400px;
+   outline: 0px;
+   font-family: 'Urbanist', sans-serif;
+   /* border-right: 0px; */
+}
+
+.btn-submit{
+   font-family: 'Bree Serif', serif;
+   height: 56.5px;
+   width: 100px;
+   outline: 0px;
+   border: 0px;
+   background-color: rgba(24, 149, 221, 0.74);
+   color: #ffffff;
+   cursor: pointer;
+}
+
+.answer{
+   font-family: 'Bree Serif', serif;
+   font-weight: 300;
+}
+
+.img{
+    width: 60vw;
+    height: 100vh;
+    background: url('/static/images/hack.jpg');
+    background-size: cover;
+}
+
+.img2{
+    width: 60vw;
+    height: 100vh;
+    background: url('/static/images/hack1.jpg');
+    background-size: cover;
+}
